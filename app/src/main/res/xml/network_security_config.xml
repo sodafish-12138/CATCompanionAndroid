@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 网络访问安全配置：允许 HTTP 明文流量（开发阶段对接本地后端） -->
+<network-security-config>
+    <!-- 允许所有明文流量（仅开发调试使用，正式发布请移除） -->
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- 允许访问 localhost/127.0.0.1/本机IP:5000 -->
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+    </domain-config>
+</network-security-config>

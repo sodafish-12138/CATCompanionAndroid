@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 应用字符串资源 -->
+<resources>
+    <string name="app_name">猫咪陪伴</string>
+    <string name="onboarding_title_welcome">欢迎来到猫咪世界</string>
+    <string name="onboarding_description_welcome">这里有4只性格各异的猫咪，选择一只成为你的专属陪伴伙伴吧~</string>
+    <string name="onboarding_next">下一步</string>
+    <string name="onboarding_skip">跳过</string>
+    <string name="onboarding_start">开始</string>
+    <string name="cat_fubao">福宝</string>
+    <string name="cat_buding">小布丁</string>
+    <string name="cat_xixi">茜茜</string>
+    <string name="cat_paofu">泡芙</string>
+    <string name="feature_chat">AI 聊天</string>
+    <string name="feature_story">专属故事</string>
+</resources>

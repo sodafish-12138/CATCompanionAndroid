@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 数据提取规则（Android 12+） -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="database" path="cat_companion_db" />
+    </cloud-backup>
+</data-extraction-rules>
